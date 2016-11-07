@@ -1,0 +1,35 @@
+<html>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<style>
+		.friend-list{
+			width: 1200px;
+			margin:auto;
+		}
+
+		@keyframes mymove {
+	    from {
+	    	top: -200px;
+				opacity: 0;
+				transform: rotateX(-180deg);
+				transform-origin: 0% 0%;
+			}
+	    to {
+	    	top: 0px;
+				opacity: 1;
+				transform: rotateX(0deg);
+			}
+		}
+
+		.animated-cont{
+			position: relative;
+			animation: mymove 0.3s ease-in 0s 1;
+		}
+	</style>
+	<title>
+		FUCK REACT
+	</title>
+	<body>
+		<div id="app"></div>
+	<script type="text/javascript" src="index_bundle.js"></script></body>
+</html>
